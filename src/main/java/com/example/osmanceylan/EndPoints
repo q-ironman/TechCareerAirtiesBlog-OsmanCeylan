@@ -1,0 +1,22 @@
+//CREATE
+http://localhost:8080/api/blog/v1/create
+{
+    "header":"Header2",
+    "context":"Content2",
+    "image":"image2"
+}
+//LIST
+http://localhost:8080/api/blog/v1/list
+//FIND
+http://localhost:8080/api/blog/v1/find/1
+//UPDATE
+http://localhost:8080/api/blog/v1/update/1
+{
+    "id": 1,
+    "header": "Header1",
+    "context": "Update1",
+    "image": "image1",
+    "systemCreatedDate": "2022-11-12T00:51:21.000+00:00"
+}
+//DELETE
+http://localhost:8080/api/blog/v1/delete/2
