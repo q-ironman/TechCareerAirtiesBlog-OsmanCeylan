@@ -10,10 +10,6 @@ import java.util.TimeZone;
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class)
 public class TechCareerAirtiesBlogOsmanCeylanApplication {
 
-    @PostConstruct
-    public void init(){
-        TimeZone.setDefault(TimeZone.getTimeZone("IST"));
-    }
 
 
     public static void main(String[] args) {

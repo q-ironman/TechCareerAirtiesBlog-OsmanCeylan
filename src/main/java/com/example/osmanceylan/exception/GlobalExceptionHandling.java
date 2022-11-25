@@ -7,5 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RestControllerAdvice
 public class GlobalExceptionHandling {
     @ExceptionHandler(BlogNotFoundException.class)
-    public String handlingBlogNotFoundException(){return ExceptionMessages.blogNotFoundMessage;}
+    public @ResponseBody ErrorResponse handlingBlogNotFoundException(){
+        return new ErrorResponse( HttpStatus.NOT_FOUND.value(),ExceptionMessages.blogNotFoundMessage);
+    }
 }
