@@ -12,13 +12,13 @@ Spring REST
 # EndPoints
 ```shell
 # CREATE
-http://localhost:7070/api/daily/v1/create
+http://localhost:8080/api/blog/v1/create
 # LIST
-http://localhost:7070/api/daily/v1/list
+http://localhost:8080/api/blog/v1/list
 # FIND
-http://localhost:7070/api/daily/v1/find/2
+http://localhost:8080/api/blog/v1/find/2
 # UPDATE
-http://localhost:7070/api/daily/v1/update/4
+http://localhost:8080/api/blog/v1/update/4
 # DELETE
-http://localhost:7070/api/daily/v1/delete/3
+http://localhost:8080/api/blog/v1/delete/3
 ```
