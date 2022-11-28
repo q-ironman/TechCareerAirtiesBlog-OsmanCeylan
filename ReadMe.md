@@ -8,4 +8,3 @@ Spring Core
 Spring REST
 ```
 * MySQL
-* Hibernate Validator
